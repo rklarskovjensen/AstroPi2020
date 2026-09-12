@@ -12,7 +12,7 @@ Den simpleste start er her:
 
 
 Som altid skal man få programmet til at skrive "Hello World", så er man i gang.
-[helloWorld.py](https://trinket.io/library/trinkets/72da39de3f)
+[helloWorld.py](https://trinket.strivemath.org/python/1d15a4e81711)
 
 Øvelse
 * Kør programmet.
@@ -28,7 +28,7 @@ Mere specifike skal I kunne
 * Skrive måledata på computerskærmen.
 * Gemme måledata i fil, virtuelt med trinket.
 
-På [https://trinket.io](https://trinket.io) kan man gemme sin kode og køre den virtuelt. De fleste elever brugte bare emulatoren på Astro Pi hjemmesiden, men trinket kan bruges til at dele eksempelkode mm.
+På [trinket.strivemath.org](trinket.strivemath.org) kan man gemme sin kode og køre den virtuelt. De fleste elever brugte bare emulatoren på Astro Pi hjemmesiden, men trinket kan bruges til at dele eksempelkode mm.
 
 ![virtuelIntroduktion](/billeder/virtuelIntroduktion.png)
 
@@ -38,7 +38,7 @@ Prøv at udforsk hvad senseHat modulet kan, fokuser på de afsnit i røde bokse.
 ## Gemme data virtuelt
 Det er selvfølgeligt vigtigt at kunne gemme sin data. Det er heldigvis ikke så svært.
 
-Den simpleste, [AstroPiSimelGemData](https://trinket.io/library/trinkets/1f26905355)
+Den simpleste, [AstroPiSimelGemData](https://trinket.strivemath.org/python/3cf8dddb4c)
 ```
 with open ('gemData.csv', 'w') as file:
   file.write('gem denne streng')
@@ -59,7 +59,7 @@ Settings, hvor man overskriver med write, tilføjer med append og læser med rea
 * Gamme data som cvs kolonner
 * Hvis vi skal importere data i regneark og lignende er standarden at gemme som kommasepareret fil.  Det kan jo godt give problemer for os da vi bruger komme til noget andet og hvis I får problemer med det så brug ; i stedet.
 
-Et lidt større eksempel [gemDataKolonner.py trinket](https://trinket.io/library/trinkets/aa816292ce)
+Et lidt større eksempel [gemDataKolonner.py trinket](https://trinket.strivemath.org/python/bed8653bdb)
 ```
 import datetime
 from time import sleep
